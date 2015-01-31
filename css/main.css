@@ -1,37 +1,42 @@
 html{
   background-color: #f6f9e6;
 }
+
 header{
   padding: 1em 2em 2em 1em;
   background: darkgrey;
   margin:0em;
-
 }
 
-h1{
+h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #fff;
   line-height: .8;
   text-align: center;
 }
 
-
 ol{
   list-style-type: circle;
-
 }
+
 .earth{
   list-style-type: square;
   color: #164ade;
 }
-h2{
+
+h2 {
+  font-size: 2.5rem;
+  color: #818076;
+  margin: 0em;
   font-family: 'Oswald', sans-serif;
 }
+
 figcaption{
   font-style: italic;
-  font-size: .5rem;
+  font-size: 1rem;
 }
+
 figure{
   background-color: #f7f9ed;
   border-radius: 2em;
@@ -44,56 +49,63 @@ figure{
   list-style-type: disc;
   color: #f0c04d;
 }
+
 .v{
   list-style-type: disc;
   color: #f0c04d
 }
+
 blockquote{
   font-style: italic;
   font-weight: bold;
   font-size: 2.5rem;
 }
+
 dt{
   font-weight:bold ;
   font-size: 1.5rem;
+  padding: 1.2em;
 }
+
 dd{
   font-size: 1.5rem;
 }
-h2{
+
+h3 {
   font-size: 2.5rem;
   color: #818076;
 }
-h3{
-  font-size: 2.5rem;
-  color: #818076;
-}
+
 a{
   color: #7a6501;
   font-size: 1.8rem;
+  list-style-type: circle;
 }
+
 cite{
   color: #7f7b50;
   font-size: 1.5rem;
 }
+
 strong{
   color: purple;
   font-weight: normal;
 }
+
 p{
   font-family: 'Oxygen', sans-serif;
   font-size: 2rem;
 }
+
 li{
   font-size: 2rem;
 }
+
 nav li{
   background-color: darkred;
   display: inline-block;
   padding: 10px ;
-  border: 0.2em dotted;
-
-
+  border: 0.2em solid #a42a46
 }
 
 nav ol{
@@ -101,8 +113,20 @@ nav ol{
   margin: 0em;
   text-align: center;
 }
+
 body{
   margin: 0em;
+}
 
+footer{
+  background-color: darkgrey;
+  padding: 1em 2em 2em 0em;
+}
 
+nav ol li a{
+  color: #fff;
+}
+
+main{
+  padding: 25px;
 }
